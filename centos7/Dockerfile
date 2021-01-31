@@ -8,6 +8,7 @@ RUN yum install -y \
     automake \
     file-devel \
     gcc \
+    git \
     glib2-devel \
     json-c-devel \
     ipset-devel \
