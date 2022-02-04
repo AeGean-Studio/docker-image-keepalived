@@ -1,7 +1,7 @@
 FROM centos:7
 
 # Keepalived version
-ARG KEEPALIVED_VERSION=2.2.1
+ARG KEEPALIVED_VERSION=2.2.7
 WORKDIR /root
 RUN yum install -y \
     autoconf \
